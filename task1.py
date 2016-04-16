@@ -6,8 +6,10 @@ import sympy as sy
 # DO NOT CHANGE THE NAME OF gausslegendre() function
 def gausslegendre(f, a, b, n=20):
     ans = 0
-    # Edit here to implement your code
-
+    #The value of the nodes and weights is calculated
+    [x,w] = np.polynomial.legendre.leggauss(n)
+    #the answer is calculated using Gauss-Legendre Quadrature formula
+    ans=0.5*(b-a)*sum(w*f(0.5*(b-a)*x+0.5*(b+a)))
     return ans
 
 if __name__ == "__main__":
