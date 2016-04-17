@@ -5,6 +5,7 @@ import matplotlib.pyplot as pPlt
 if __name__ == "__main__":
     #Create the system of ODE with the differential equation
     def System_ODE(y,t,a,b):
+        #y0 is the prey, y1 is the predator
         #Set y0 and y1 equal to y
         y0, y1 = y
         #The differential equation is written as diff
