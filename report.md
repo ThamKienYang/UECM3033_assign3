@@ -32,7 +32,7 @@ First, the function for the system of ODE is created with the differential equat
 
 Put your graphs here and explain.
 
-The two graph below is the graph of the solution for ODE system with scipy.integrate.odeint with y0(0) equal to 0.1. 
+The two graph below is the graph of the solution for ODE system with scipy.integrate.odeint with y(0) equal to 0.1. The first graph is the prey-predator(y) against time,t. The red line is the number of prey against time, while the blue line represent the population of predator against time. The second graph is predator(y1) vs prey(y0). Both of the graph show that the number of prey and the number of predator are inversely relationship.
 
 ![y_against_t.png](y_against_t.png)
 
@@ -46,8 +46,8 @@ The two graph below is the graph of the solution for ODE system with scipy.integ
 
 Is the system of ODE sensitive to initial condition? Explain.
 
-The system of ODE is considered sensitive to initial condition. As seen in the four graph above, the graph become a bit different as the initial condition changed from 0.1 to 0.11.
+The system of ODE is considered not sensitive to initial condition. As seen in the four graph above, the graph become just a bit different compared to the initial condition changed from 0.1 to 0.11.
 
 -----------------------------------
 
-<sup>last modified: 16/04/2016</sup>
+<sup>last modified: 17/04/2016</sup>
